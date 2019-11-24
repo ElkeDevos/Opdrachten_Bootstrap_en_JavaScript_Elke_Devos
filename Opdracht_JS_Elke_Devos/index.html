@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap template</title>
+</head>
+<body>
+<div class="container-fluid ">
+    <div class="row">
+        <div class="col-5">
+            <h1>Wat wilt u maken?</h1>
+
+            <div class="dropdown">
+                <button class="btn dropdown-toggle form-control" type="button" id="inputVelden" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Input velden:
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><button onclick="Tekst()" class="form-control btn">Tekst, <input type="text"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Kleur()" class="form-control btn">Kleur <input type="color"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Email()" class="form-control btn">Email <input type="email"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Afbeelding()" class="form-control btn">Image <input type="image"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Password()" class="form-control btn">Password <input type="password"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Afstand()" class="form-control btn">Range <input type="range"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Search()" class="form-control btn">Search <input type="search"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Url()" class="form-control btn">Url <input type="url"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Tel()" class="form-control btn">Tel <input type="tel"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Submit()" class="form-control btn">Submit <input type="submit"></button></a>
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle form-control" type="button" id="datumEnTijd" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Datum en Tijd:
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><button onclick="Datum()" class="form-control btn">Date <input type="date"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Tijd()" class="form-control btn">Time <input type="time"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="LokaleTijd()" class="form-control btn">Date-time local <input type="datetime-local"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Week()" class="form-control btn">Week <input type="week"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Month()" class="form-control btn">Month <input type="month"></button></a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle form-control" type="button" id="oplijstingen" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                    Oplijstingen:
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#"><button onclick="Checkbox()" class="form-control btn">Checkbox, <input type="checkbox"></button></a>
+                    <a class="dropdown-item" href="#"><button onclick="Radio()" class="form-control btn">Radiobutton <input type="radio"></button></a>
+
+                    <a class="dropdown-item" href="#"><button onclick="Nummer()" class="form-control btn">Number <input type="number"></button></a>
+
+                </div>
+            </div>
+            <div>
+                <a href="#"><button onclick="Button()" class="form-control btn">Button</button></a>
+            </div>
+
+            <button class="knoppen" onclick="Tonen()">Geef code</button>
+            <button class="knoppen" onclick="Opnieuw()">Opnieuw</button>
+
+        </div>
+        <div class="col-7">
+            <p id="resultaat" >Druk op "GEEF CODE" om de HTML code hier weer te geven.</p>
+        </div>
+    </div>
+</div>
+<!--dropdown van maken en formveld van maken zodat alles in 1 hokje komt vragen aan gebruiker wat in de
+tag moet. bv: hoeveel opties wilt u? via for loop kunnen namen ingevuld worden-->
+​
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+
+
+<script src="js/jQuery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src ="js/script.js"></script>
+</body>
+</html>

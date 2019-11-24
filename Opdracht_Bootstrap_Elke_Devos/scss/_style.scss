@@ -1,0 +1,468 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+}
+@mixin center(){
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  left:50%;
+  top:50%;
+}
+body{
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+}
+//FONTSSTYLES
+
+.f-36{
+  font-size:36px;
+}
+.f-42{
+  font-size: 42px;
+}
+.f-18{
+  font-size: 18px;
+}
+.kleurWit{
+  color: white !important;
+}
+.articlesTekst{
+  color: #5e6372;
+}
+.title{
+  font-weight: bold;
+  color: transparent;
+  font-size:48px;
+  background:linear-gradient(to right,#cb0035,#e06900);
+  -webkit-background-clip: text;
+}
+//BEGIN HEADER
+.card{
+  background: none;
+  border: none;
+  padding: 0;
+}
+#drone{
+  font-weight: bolder ;
+}
+.bg-white{
+  background-color: transparent !important;
+}
+.navbar{
+  margin-top: 10px;
+}
+.hov:hover{
+  border: 1px solid white;
+  border-radius: 50px 50px;
+}
+.knopjes:hover{
+  background-color: white;
+  color: #d63530;
+}
+#film{
+  font-weight: bold;
+}
+#lichteTekst{
+  color: #eb823f;
+  font-size: 14px;
+  padding: 10px;
+}
+.knopjes{
+  background-color: transparent;
+  color: white;
+  height: 50px;
+  width: 205px;
+  border: 1px solid white;
+  border-radius: 50px 50px;
+  margin-top: 2px;
+}
+//EINDE HEADER
+//BEGIN MAIN
+//DEEL 1
+#achtergrond{
+  background: #f6f6f6;
+}
+.ask{
+  border: none;
+  background: #274799;
+  border-radius: 50px 50px;
+  color: white;
+}
+//DEEL 2
+#natuur{
+  height: 100%;
+}
+.imgH{
+  height: 90%;
+}
+//DEEL3
+.bgAirCity{
+  background: #f6f6f6;
+  height: 100%;
+}
+.airTekst{
+  margin-top: 50px;
+}
+.grootte{
+  padding: 10px;
+  width: 100%;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+//NEWSLETTER
+#signUp{
+  margin-top: 1px;
+}
+#newsHoofd{
+  font-size: 36px;
+  font-weight: bold;
+}
+#newsBtn{
+  border: 1px solid white;
+  border-radius: 50px 50px;
+  width: 428px;
+  background-color: rgba(250,250,250,0.2);
+  ::placeholder{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+#sendBtn{
+  color: #d9514c;
+  height: 50px;
+  width: 205px;
+  border: 1px solid white;
+  border-radius: 50px 50px;
+}
+//MAP
+#map{
+  width: 100%;
+}
+//EINDE MAIN
+//BEGIN FOOTER
+footer{
+  color: #a7acbc;
+}
+//EINDE FOOTER
+
+
+/** MEDIA QUERIES **/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @font-face {
+    font-family: 'Montserrat', sans-serif;
+  }
+  @mixin center(){
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+  }
+  body{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  //FONTSSTYLES
+
+  .f-36{
+    font-size:36px;
+  }
+  .f-42{
+    font-size: 42px;
+  }
+  .f-18{
+    font-size: 18px;
+  }
+  .f-14{
+    font-size: 14px;
+    color: #a7acbc;
+  }
+  .kleurWit{
+    color: white !important;
+  }
+  .articlesTekst{
+    color: #5e6372;
+  }
+  .title{
+    font-weight: bold;
+    color: transparent;
+    font-size:48px;
+    background:linear-gradient(to right,#cb0035,#e06900);
+    -webkit-background-clip: text;
+  }
+  //BEGIN HEADER
+  .card{
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  #drone{
+    font-weight: bolder ;
+  }
+  .bg-white{
+    background-color: transparent !important;
+  }
+  .navbar{
+    margin-top: 10px;
+  }
+  .hov:hover{
+    border: 1px solid white;
+    border-radius: 50px 50px;
+  }
+  .knopjes:hover{
+    background-color: white;
+    color: #d63530;
+  }
+  #film{
+    font-weight: bold;
+  }
+  #lichteTekst{
+    color: #eb823f;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .knopjes{
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 205px;
+    border: 1px solid white;
+    border-radius: 50px 50px;
+    margin-top: 2px;
+  }
+  //EINDE HEADER
+  //BEGIN MAIN
+  //DEEL 1
+  #achtergrond{
+    background: #f6f6f6;
+  }
+  .ask{
+    border: none;
+    background: #274799;
+    border-radius: 50px 50px;
+    color: white;
+  }
+  //DEEL 2
+  #natuur{
+    height: 100%;
+  }
+  .imgH{
+    height: 90%;
+  }
+  //DEEL3
+  .bgAirCity{
+    background: #f6f6f6;
+    height: 100%;
+  }
+  .airTekst{
+    margin-top: 50px;
+  }
+  .grootte{
+    padding: 10px;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  //NEWSLETTER
+  #signUp{
+    margin-top: 1px;
+  }
+  #newsHoofd{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  #newsBtn{
+    border: 1px solid white;
+    border-radius: 50px 50px;
+    width: 428px;
+    background-color: rgba(250,250,250,0.2);
+    ::placeholder{
+      color: white;
+      font-size: 18px;
+      text-align: left;
+    }
+  }
+  #sendBtn{
+    color: #d9514c;
+    height: 50px;
+    width: 205px;
+    border: 1px solid white;
+    border-radius: 50px 50px;
+  }
+  //MAP
+  #map{
+    width: 100%;
+  }
+  //EINDE MAIN
+  //BEGIN FOOTER
+  footer{
+    color: #a7acbc;
+  }
+  //EINDE FOOTER
+
+
+  // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  body{
+
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  body{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  //FONTSTYLES
+  .f-36{
+    font-size:36px;
+  }
+  .kleurWit{
+    color: white !important;
+  }
+  .articlesTekst{
+    color: #5e6372;
+    font-size: 18px;
+  }
+  //BEGIN HEADER
+  .card{
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  #drone{
+    font-weight: bolder ;
+  }
+  .bg-white{
+    background-color: transparent !important;
+  }
+  .navbar{
+    margin-top: 10px;
+  }
+  .hov:hover{
+    border: 1px solid white;
+    border-radius: 50px 50px;
+  }
+  .knopjes{
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 205px;
+    border: 1px solid white;
+    border-radius: 50px 50px;
+  }
+  .knopjes:hover{
+    background-color: white;
+    color: #d63530;
+  }
+  #film{
+    padding-top: 150px;
+    font-size: 48px;
+  }
+  #lichteTekst{
+    color: #eb823f;
+    font-size: 18px;
+  }
+  //EINDE HEADER
+  //BEGIN MAIN
+  //DEEL 1
+  #achtergrond{
+    background: #f6f6f6;
+  }
+  .ask{
+    border: none;
+    background: #274799;
+    border-radius: 50px 50px;
+    color: white;
+  }
+  //DEEL 2
+  #natuur{
+    background-image: url("../Image/drone_info.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+  }
+  //DEEL 3
+  .bgAirCity{
+    background: #f6f6f6;
+    height: 100%;
+  }
+  .grootte{
+    padding-top: 0px;
+    padding-bottom: 40px;
+    width: 100%;
+    line-height: 35px;
+  }
+.airTekst{
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+  //NEWSLETTER
+#signUp{
+  margin-top: 10%;
+}
+  #newsHoofd{
+    font-size: 48px;
+    font-weight: bold;
+  }
+  #newsBtn{
+    border: none;
+    border-radius: 50px 50px;
+    width: 428px;
+    background-color: rgba(250,250,250,0.2);
+::placeholder{
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  outline: none;
+  border: none;
+}
+  }
+  #sendBtn{
+    color: #d9514c;
+    height: 50px;
+    width: 205px;
+    border: 1px solid white;
+    border-radius: 50px 50px;
+  }
+  //MAP
+  #map{
+    width: 100%;
+  }
+  //EINDE MAIN
+//FOOTER
+footer{
+  margin-bottom: 200px;
+  color: #a7acbc;
+}
+  //EINDE FOOTER
+
+  @mixin center(){
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+  }
+
+  //BEGIN HEADER
+
+  //EINDE HEADER
+
+//BEGIN MAIN
+
+//EINDE MAIN
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}}}
+
+
+
