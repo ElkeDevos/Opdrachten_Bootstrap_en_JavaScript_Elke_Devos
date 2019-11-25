@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BOOTSTRAP TEMPLATE.iml" filepath="$PROJECT_DIR$/.idea/BOOTSTRAP TEMPLATE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Opdracht_Bootstrap_Elke_Devos/.idea/BOOTSTRAP TEMPLATE.iml" filepath="$PROJECT_DIR$/../Opdracht_Bootstrap_Elke_Devos/.idea/BOOTSTRAP TEMPLATE.iml" />
       <module fileurl="file://C:/cursussen/JavaScript/.idea/JavaScript.iml" filepath="C:/cursussen/JavaScript/.idea/JavaScript.iml" />
       <module fileurl="file://C:/cursussen/JavaScript/Oefeningen/.idea/Oefeningen.iml" filepath="C:/cursussen/JavaScript/Oefeningen/.idea/Oefeningen.iml" />
     </modules>
